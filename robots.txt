@@ -1,12 +1,33 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /backup/
+Allow: /public/
 Disallow: /secret/
 Disallow: /sql/
+Allow: /downloads/
+Allow: /news/
+Allow: /blog/
 Disallow: /config/
 Disallow: /private/
+Allow: /images/
+Allow: /css/
+Allow: /js/
 Disallow: /temp/
 Disallow: /logs/
+Allow: /share/
+Allow: /social/
+
+# Время задержки между запросами
+Crawl-delay: 10
+
+Sitemap: https://www.test.app.com/sitemap.xml
+Sitemap: https://www.test.app.com/sitemap_index.xml
+
+Allow: /api/public/
+
+# Доступ только для своих ботов
+User-agent: MyCustomBot
+Allow: /
 
 # Скрытые директории для исследования
 # admin - панель управления
