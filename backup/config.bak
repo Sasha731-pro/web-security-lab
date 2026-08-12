@@ -1,0 +1,6 @@
+# Резервная копия конфигурации
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=SuperSecretPassword123!
+API_KEY=sk_live_1234567890abcdef
+SECRET_KEY=xyz789secret
