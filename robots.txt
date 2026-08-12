@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /secret/
+Disallow: /sql/
+Disallow: /config/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /logs/
+
+# Скрытые директории для исследования
+# admin - панель управления
+# backup - резервные копии
+# secret - конфиденциальные данные
